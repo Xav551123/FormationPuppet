@@ -1,0 +1,14 @@
+{
+  "name": "puppet",
+  "version": "1.0.0",
+  "description": "puppeteer to point to webpage",
+  "main": "test3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.2.0"
+  }
+}
