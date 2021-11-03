@@ -1,0 +1,7 @@
+{
+	"clientId": "my-discord-bot-id",
+	"guildId": "the-chanel-i-use-in-my-server",
+  "token": "my-bottoken",
+	"mail": "the-mail-for-thep-latferom-to-connect",
+  "pass": "the-pass"
+}
