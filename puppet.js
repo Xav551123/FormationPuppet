@@ -3,8 +3,8 @@ const puppeteer = require ('puppeteer')
 
 const { Client, Intents } = require('discord.js');
 const { token } = require('./config.json');
-const { mail } = require('./pass.json');
-const { pass } = require('./pass.json');
+const { mail } = require('./config.json');
+const { pass } = require('./config.json');
 var mes = 'error404'
 
 
