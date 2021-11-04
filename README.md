@@ -1,5 +1,5 @@
 # FormationPuppet
-This project is a puppeteer script that will point into a specific website.
+This project is a puppeteer script that will do "pointage" into a specific website.
 For educationnal purpose only.
 the script will then send a log message using discord bot
 
