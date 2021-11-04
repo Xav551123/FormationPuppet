@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^13.2.0",
-    "pupeteer": "^10.0.1"
+    "puppeteer": "^11.0.0",
+    "discord.js": "^13.2.0"
+
   }
+
 }
