@@ -22,9 +22,9 @@ clone the repository to your home directory with git
 
 run commande  `npm install to install dependency `
 
-update the config.json with at least password and login
+update the config.json with at least password and login (with nano)
 
-run the script using node puppet.js
+run the script using  `node puppet.js `
 
 you should have a console log saying "pointage effectué"
 
