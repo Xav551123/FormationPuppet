@@ -28,6 +28,8 @@ run the script using  `node puppet.js `
 
 you should have a console log saying "pointage effectué"
 
+then you can add it to cron task to be start automaticaly at 9h et 14h
+
 
 
 
