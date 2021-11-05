@@ -16,11 +16,10 @@ https://discordjs.guide/preparations/setting-up-a-bot-application.html
 
 install nvm with curl or wget https://github.com/nvm-sh/nvm
 
-use nvm to install last node
-
+use nvm to install last node `sudo nvm install node`
 clone the repository to your home directory with git
 
-run commande  `npm install to install dependency `
+run commande  `sudo npm install` to install dependency 
 
 update the config.json with at least password and login (with nano)
 
