@@ -11,20 +11,20 @@ var mes = 'error404'
 
 async function main() {
   console.log('lancement du navigateur')
-  console.log('flag1')
+ // console.log('flag1')
     const naviga = await puppeteer.launch({headless: true});
-    console.log('flag2')
+   // console.log('flag2')
     const page = await naviga.newPage ();
     console.log('ouverture et login sur la page')   
     await page.goto ('https://www.formation-occ.com/index.php', {waitUntil: 'networkidle2'});
-    await page.screenshot ({path: 'unsplash1.png'});
+  //  await page.screenshot ({path: 'unsplash1.png'});
    
     await page.type ('#inputUsername', mail);
     await page.type ('#inputPassword', pass);
     
     await page.click ('input.btn.btn-default');
     console.log('succes login')
-    await page.screenshot ({path: 'unsplash11.png'});
+ //   await page.screenshot ({path: 'unsplash11.png'});
     await page.waitForTimeout(2000);
     const pageAttendance= await page.evaluate(() => {
         return !!document.querySelector('#attendancebutton') // !! converts anything to boolean
