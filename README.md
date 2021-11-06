@@ -27,7 +27,7 @@ run the script using  `node puppet.js `
 
 you should have a console log saying "pointage effectué"
 
-if everything work as expected you can change 
+if everything work as expected you can change line 15 `const naviga = await puppeteer.launch({headless: true});` to false. it will run witout opening chronium
 
 then you can add it to cron task to be start automaticaly at 9h et 14h
 
