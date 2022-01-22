@@ -1,3 +1,5 @@
+#une version plus simple utilisant bash est disponible dans bashpointage
+
 # FormationPuppet
 This project is a puppeteer script that will do "pointage" into a specific website.
 For educationnal purpose only.
